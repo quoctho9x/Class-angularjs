@@ -1,0 +1,15 @@
+<form name="customForm" ng-submit="onSubmit()">
+    <div class="form-group" ng-repeat="config in ngConfigs">
+        <input type="text" class="form-control" placeholder="{{config.title}}"
+               ng-required="config.require"
+               ng-if="'text' === config.type"
+               ng-model="ngModel[config.key]">
+        <input type="password" class="form-control" placeholder="{{config.title}}"
+               ng-required="config.require"
+               ng-if="'text' === config.type"
+               ng-model="ngModel[config.key]">
+    </div>
+    <div class="form-group">
+        <button class="btn btn-primary" type="submit" ng-disabled="customForm.$invalid">Login</button>
+    </div>
+</form>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+<head>
+    <meta charset="UTF-8">
+    <base href="/">
+    <title ng-bind="title">Admin panel</title>
+
+    <link rel="icon" type="image/x-icon" href="assets/favicon.png">
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="app/pages/login/login.css">
+    <link rel="stylesheet" href="app/components/header/header.css">
+    <!--<link rel="stylesheet" href="app/directives/custom-form/custom-form.css">-->
+
+    <script src="bower_components/angular/angular.min.js"></script>
+    <script src="bower_components/angular-route/angular-route.min.js"></script>
+
+    <script src="app/app.js"></script>
+    <script src="app/routings.js"></script>
+    <script src="app/configs.js"></script>
+
+    <script src="app/services/user-srv.js"></script>
+
+    <script src="app/filters/uppercase-filter.js"></script>
+
+    <script src="app/components/header/header.js"></script>
+
+    <script src="app/directives/custom-form/custom-form.js"></script>
+
+    <script src="app/pages/dashboard/dashboard-ctrl.js"></script>
+    <script src="app/pages/product/product-ctrl.js"></script>
+    <script src="app/pages/login/login-ctrl.js"></script>
+    <script src="app/pages/404/404-ctrl.js"></script>
+    <!--data json-->
+    <script src="app/services/data.json"></script>
+</head>
+
+<body>
+<div ng-view></div>
+</body>
+</html>

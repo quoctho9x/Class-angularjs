@@ -1,0 +1,31 @@
+{
+  "name": "angularjs-lesson",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "lite-server -c=bs-config.json",
+    "test": "karma start karma.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/binhnguyenhuu/angularjs-lesson.git"
+  },
+  "author": "HB",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/binhnguyenhuu/angularjs-lesson/issues"
+  },
+  "homepage": "https://github.com/binhnguyenhuu/angularjs-lesson#readme",
+  "devDependencies": {
+    "jasmine-core": "^2.5.2",
+    "karma": "^1.5.0",
+    "karma-chrome-launcher": "^2.0.0",
+    "karma-firefox-launcher": "^1.0.1",
+    "karma-jasmine": "^1.1.0",
+    "karma-junit-reporter": "^1.2.0",
+    "lite-server": "^2.3.0",
+    "protractor": "^5.1.1"
+  },
+  "dependencies": {}
+}

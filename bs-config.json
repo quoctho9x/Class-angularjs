@@ -1,0 +1,15 @@
+{
+  "server": {
+    "baseDir": "src",
+    "files": [
+      "index.html",
+      "app/**/*.*"
+    ],
+    "middleware": {
+      "0": null
+    },
+    "routes": {
+      "/node_modules": "node_modules"
+    }
+  }
+}

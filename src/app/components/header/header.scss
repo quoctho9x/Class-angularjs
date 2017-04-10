@@ -1,0 +1,16 @@
+.header-container {
+  height: 50px;
+  background: #ccc;
+  position: relative;
+
+  p {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+}
